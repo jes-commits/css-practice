@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="registration-form.css">
+	<script src="https://www.google.com/recaptcha/api.js?render=6LcratkUAAAAAEfV2hT5HAzJjig-1uZUQ8T3XXJy"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6LcratkUAAAAAEfV2hT5HAzJjig-1uZUQ8T3XXJy', {action: 'homepage'}).then(function(token) {
+       ...
+    });
+});
+</script>
+</head>
+<body>
+
+	
+	<div id="head">
+		<p id="head-text">Codetrain Registration Form</p>
+		<p>Fill this form and we will give you a call to join our next class which starts in January 2020 in Accra and Kumasi branches. You can alternatively Whatsapp/Call us on 0545792397/0548604333 to register and make enquiries</p>
+		<p id="req">* Required</p>
+	</div>
+
+	<div id="email">
+		<label for="email">Email address <SPAN id="ast">*</SPAN></label><br><br><br><br>
+		<input type="email" name="email" id="email" placeholder="Your email" required="This is a required question">
+	</div>
+
+	<div id="name">
+		<label for="name">Full Name <span id="ast">*</span></label><br><br><br><br>
+		<input type="text" name="name" id="name" placeholder="Your answer">
+	</div>
+
+	<div id="phone">
+		<label for="phone">Phone Number <span id="ast">*</span></label><br><br><br><br>
+		<input type="phone" name="phone" id="phone" required placeholder="Your answer">
+	</div>
+
+	<div id="next-of-kin">
+		<label for="phone">Phone Number of next of kin <span id="ast">*</span></label>
+		<p>Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
+		<br><br>
+		<input type="phone" name="phone" id="phone" required placeholder="Your answer">
+	</div>
+
+	<div id="location">
+		<label for="location">Location <span id="ast">*</span></label><br><br><br><br>
+		<input type="text" name="location" id="location" placeholder="Your answer">
+	</div>
+
+	<div id="school">
+		<label for="school">Current or previous school <span id="ast">*</span></label><br><br><br><br>
+		<input type="text" name="school" id="school" placeholder="Your answer">
+	</div>
+
+	<div id="reason">
+		<label for="name">Why do you want to join Codetrain <span id="ast">*</span></label><br><br><br><br>
+		<input type="text" name="reason" id="reason" placeholder="Your answer">
+	</div>
+	<div id="how-heared">
+		<label for="how-heared">How did you hear about Codetrain? <span id="ast">*</span></label><br><br><br><br>
+		<input type="text" name="how-heared" id="how-heared" placeholder="Your answer">
+	</div><br>
+
+	<p id="par1">A copy of your response will be emailed to the address you provided</p><br>
+
+	
+	<input type="button" value="Submit">
+
+	<p id="to-right">Page 1 of 1<p>
+		
+	<div id="color-bar"></div>
+
+	<p id="par3">Never submit passwords through Google Forms</p>
+
+	<p id="last-but-one">This content is neither created nor endorsed by Google. <a href="#">Report Abuse</a>-<a href="#">Terms of Service</a>-<a href="#">Privacy Policy</a></p>
+
+	<p id="last">Google Forms</p>
+
+
+</body>
+</html>
